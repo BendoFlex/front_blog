@@ -1,0 +1,18 @@
+h1 {
+    color : blue
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+
+header > nav >  ul{
+    display: flex;
+    justify-content: space-between;
+}
