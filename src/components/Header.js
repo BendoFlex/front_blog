@@ -32,11 +32,13 @@ export default function Header(){
                 <ul>
                     <li><Link to="/posts">Posts</Link></li>
                     <li><Link to="/whoami">Qui je suis</Link></li>
+                    <li><Link to="/admin">Admin</Link></li>
                     
                 </ul>
             </nav>
             <div>
-                <Button><Link to="/admin">Connexion</Link></Button>
+                <Button><Link to="/login">Connexion</Link></Button>
+                <Button><Link to="/register">S enregistrer</Link></Button>
                 <form action="/">
                     <input type="text" name="search" id="search" />
                     <input type="submit" value="Rechercher" />
